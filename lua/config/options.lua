@@ -14,3 +14,15 @@ vim.opt.shiftwidth = 4
 
 -- Enable automatic indentation
 vim.opt.autoindent = true
+
+-- Use actual tab characters instead of spaces
+vim.opt.expandtab = false
+
+-- Set the number of spaces for each tab
+vim.opt.tabstop = 4
+
+-- Set the number of spaces for automatic indentation
+vim.opt.shiftwidth = 4
+
+-- Enable automatic indentation
+vim.opt.autoindent = true
