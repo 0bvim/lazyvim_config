@@ -5,7 +5,7 @@ return {
 		"mg979/vim-visual-multi",
 		lazy = false,
 		config = function()
-			local visual_multi = require("visual-mult")
+			local visual_multi = require("visual_mult")
 			visual_multi.setup({
 				default_map = true,
 				auto_update = true,
