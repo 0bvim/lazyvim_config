@@ -25,4 +25,4 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 
 -- Enable automatic indentation
-vim.opt.autoindent = true
+vim.g.autoformat = false
