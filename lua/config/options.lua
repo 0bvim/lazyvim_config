@@ -7,10 +7,10 @@
 vim.opt.expandtab = false
 
 -- Set the number of spaces for each tab
-vim.opt.tabstop = 4
+vim.opt.tabstop = 2
 
 -- Set the number of spaces for automatic indentation
-vim.opt.shiftwidth = 4
+vim.opt.shiftwidth = 2
 
 -- Enable automatic indentation
 vim.opt.autoindent = true
@@ -19,10 +19,13 @@ vim.opt.autoindent = true
 vim.opt.expandtab = false
 
 -- Set the number of spaces for each tab
-vim.opt.tabstop = 4
+vim.opt.tabstop = 2
 
 -- Set the number of spaces for automatic indentation
-vim.opt.shiftwidth = 4
+vim.opt.shiftwidth = 2
 
 -- Enable automatic indentation
 vim.g.autoformat = false
+
+-- Disable swapfile
+vim.opt.swapfile = false
