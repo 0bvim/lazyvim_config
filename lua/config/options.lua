@@ -26,3 +26,6 @@ vim.opt.shiftwidth = 2
 
 -- Enable automatic indentation
 vim.g.autoformat = false
+
+-- Disable swapfile
+vim.opt.swapfile = false
